@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+detail: {{object.transation_id}}
+{% endblock title %}
+
+{% block content %}
+{{object.pk}}
+<br>
+{{object.transation_id}}
+{% endblock content %}
